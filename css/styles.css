@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  font-family: cursive;  
+}
+
+#header-nav {
+  background-color: darkgrey;
+  border-radius: 0;
+  border: 2px solid #000;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  margin-bottom: 0px
+}
+
+.menu-item-header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.menu-item {
+  background-color: darkgrey;
+  border-radius: 0;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-menu-item {
+  border: 1px solid #000;
+  text-decoration: none;
+  color: black;
+  border-radius: 0;
+}
+
+a, a:focus, a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+
+.navbar-brand h1 {
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.menu-header {
+  font-size: 175%;  
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+    border-color: black;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: black;
+}
+
+.navbar-toggle:hover{
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .menu-item {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
